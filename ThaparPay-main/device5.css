@@ -1,0 +1,99 @@
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    height: 6rem;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+#logo img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0px;
+    display: block;
+    margin: 8px auto;
+}
+.primaryheading{
+    font-size: 3rem;
+}
+.box{
+    width: auto;
+    height: auto;
+}
+.box {
+    border: 2px solid red;
+    background-color: rgb(234 234 234);
+    /* margin: -222px 15px; */
+    /* width: 13rem; */
+    border-radius: 16px;
+    /* height: 32rem; */
+    margin-bottom: 246px;
+    
+    padding: 0px 45px;
+    font-size: 1rem;
+}
+.box img {
+    width: 9rem;
+    /* height: auto; */
+}
+.primaryheading3{
+    top: -250px;
+    
+}
+#clientscontainer{
+    margin-top: -300px;
+}
+#primaryheading4{
+    bottom: 46px;
+}
+#contactus{
+    bottom: 60px;
+    height: auto;
+    width: auto;
+}
+.end{
+    top:100px;
+}
+.client img {
+    height: 3rem;
+    width: 6rem;
+    border: 3px solid black;
+    margin: 11px 41px;
+    box-shadow: 3px 3px 15px 8px black;
+    /* margin-bottom: -61px; */
+}
+.primaryheading3{
+    margin:65px auto;
+}
+#navbar::before{
+    height: 200%;
+}
+#logo img {
+    width: 4rem;
+    height: 4rem;
+    padding: 0px;
+    display: block;
+    margin: -5px auto;
+}
+.items a {
+    text-decoration: none;
+    /* display: block; */
+    /* padding: 4px 10px; */
+    margin: 1px -3px;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    width: auto;
+    right: 23px;
+}
